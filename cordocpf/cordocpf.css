@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+#formCPF {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 200;
+    font-size: 1em;
+    margin: 10px;
+    width: 200px;
+    padding: 0;
+}
+
+#outputCor {
+    background-color: white;
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    align-items: end;
+  }
